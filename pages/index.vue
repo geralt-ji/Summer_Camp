@@ -115,7 +115,7 @@
           </div>
         </div>
         <div class="qr-code-image">
-          <img src="images/qr_code.jpg" alt="QR Code for Registration" />
+          <img src="../public/images/qr_code.jpg" alt="QR Code for Registration" />
         </div>
       </div>
     </section>
