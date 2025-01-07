@@ -9,40 +9,40 @@
           <div class="dropdown">
             <span class="nav-link">课程体系 <span class="dropdown-arrow">▼</span></span>
             <div class="dropdown-content">
-              <NuxtLink to="/" class="dropdown-item">课程概览</NuxtLink>
-              <NuxtLink to="/" class="dropdown-item">机器学习课程</NuxtLink>
+              <a href="https://celehs.github.io/CELEHS-Data-Science-Summer-Camp/week_2.html" target="_blank" rel="noopener noreferrer" class="dropdown-item">统计与机器学习</a>
+              <!-- <NuxtLink to="/" class="dropdown-item">课程概览</NuxtLink> -->
+              <!-- <NuxtLink to="/" class="dropdown-item">机器学习课程</NuxtLink> -->
             </div>
           </div>
           <NuxtLink to="/" class="nav-link">报名选拔</NuxtLink>
           <div class="dropdown">
             <span class="nav-link">学习资源<span class="dropdown-arrow">▼</span></span>
             <div class="dropdown-content">
-              <NuxtLink to="https://learn-from-zero.netlify.app" class="dropdown-item">Python教程</NuxtLink>
-              <NuxtLink to="https://celehs.github.io/CELEHS-Data-Science-Summer-Camp/car_building.html" class="dropdown-item">制作树莓派小车</NuxtLink>
-              <NuxtLink to="https://celehs.github.io/CELEHS-Data-Science-Summer-Camp/week_1.html" class="dropdown-item">Python 基础</NuxtLink>
-              <NuxtLink to="https://celehs.github.io/CELEHS-Data-Science-Summer-Camp/week_2.html" class="dropdown-item">统计与机器学习</NuxtLink>
+              <a href="https://learn-from-zero.netlify.app" target="_blank" rel="noopener noreferrer" class="dropdown-item">Python教程</a>
+              <a href="https://celehs.github.io/CELEHS-Data-Science-Summer-Camp/car_building.html" target="_blank" rel="noopener noreferrer" class="dropdown-item">制作树莓派小车</a>
+              <a href="https://celehs.github.io/CELEHS-Data-Science-Summer-Camp/week_1.html" target="_blank" rel="noopener noreferrer" class="dropdown-item">Python 基础</a>
             </div>
           </div>
           <div class="dropdown">
             <span class="nav-link">活动动态<span class="dropdown-arrow">▼</span></span>
             <div class="dropdown-content">
-              <NuxtLink to="https://mp.weixin.qq.com/s/BsAXv8Ft-XfY5XvR4LXoqA" class="dropdown-item">夏令营开营</NuxtLink>
-              <NuxtLink to="https://mp.weixin.qq.com/s/vYb7A_SccRro19v9psugdw" class="dropdown-item">数据科学筑梦记</NuxtLink>
+              <a href="https://mp.weixin.qq.com/s/BsAXv8Ft-XfY5XvR4LXoqA" target="_blank" rel="noopener noreferrer" class="dropdown-item">夏令营开营</a>
+              <a href="https://mp.weixin.qq.com/s/vYb7A_SccRro19v9psugdw" target="_blank" rel="noopener noreferrer" class="dropdown-item">数据科学筑梦记</a>
             </div>
           </div>
-          <NuxtLink to="/" class="nav-link">学习追踪</NuxtLink>
+          <a href="https://www.kaggle.com/" target="_blank" rel="noopener noreferrer" class="nav-link">学习追踪</a>
         </div>
         <div class="nav-right">
           <div class="search-container" :class="{ 'active': isSearchActive }">
             <div class="search-box">
-              <input 
+              <!-- <input 
                 type="text" 
                 v-model="searchQuery" 
                 @focus="isSearchActive = true"
                 @blur="handleSearchBlur"
                 placeholder="搜索..."
                 class="search-input"
-              >
+              > -->
               <div v-if="isSearchActive && searchResults.length > 0" class="search-results">
                 <div class="results-count">{{ searchResults.length }} 匹配的文档</div>
                 <div 
@@ -57,11 +57,11 @@
               </div>
             </div>
           </div>
-          <NuxtLink to="/" class="nav-link">中文</NuxtLink>
-          <NuxtLink to="/" class="nav-link">English</NuxtLink>
-          <a href="https://github.com/your-repo" target="_blank" class="nav-link">
+          <!-- <NuxtLink to="/" class="nav-link">中文</NuxtLink> -->
+          <!-- <NuxtLink to="/" class="nav-link">English</NuxtLink> -->
+          <!-- <a href="https://github.com/your-repo" target="_blank" class="nav-link">
             <img src="/github-mark.svg" alt="GitHub" class="github-icon">
-          </a>
+          </a> -->
         </div>
     </nav>
     <main class="main-content">
