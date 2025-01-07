@@ -44,6 +44,12 @@
           <div class="right-img-2"></div>
           <div class="right-img-3"></div>
         </div>
+        <aside class="banner-intro">
+          <div class = "color-block"></div>
+          <div class = "font-block">
+            <p class="intro-p1">专为初高中生设计的AI与编程实践课程，通过动手制作智能小车，在趣味十足的项目中学习Python编程、机器学习、深度学习等前沿技术，课程由顶尖高校导师亲自指导，带领学生走在科技最前沿。</p>
+          </div>
+        </aside>
       </div>
     </section>
 
@@ -94,6 +100,13 @@
           <div class="feedback-block2-3"><span>"非常好，课程形式特别喜欢，认识了好棒的老师，结交了朋友，依依不舍。"</span></div>
           <div class="feedback-block2-4"><span>"老师和助教们都很友善亲切，教学方式让我们很放松，保持很好的学习状态，激发了我们的学习兴趣，有点难，但总体很好。</span></div>
         </div>
+        <div class="three-tutor2"></div>
+        <aside class="tutor-intro">
+          <div class = "color-block"></div>
+          <div class = "font-block">
+            <p class="intro-p1">我们的导师团队由多位世界名校的教授及业界资深工程师组成，拥有丰富的教学经验和实践背景，致力于为学生提供优质的教育。</p>
+          </div>
+        </aside>
       </div>
     </section>
 
@@ -120,7 +133,7 @@
       </div>
     </section>
 
-    <!-- <section class="contact-section" :style="{ backgroundImage: 'url(images/hour-of-ai.jpg)' }">
+    <section class="contact-section" :style="{ backgroundImage: 'url(images/hour-of-ai.jpg)' }">
       <div class="content-overlay">
         <h2>联系我们</h2>
         <div class="contact-info">
