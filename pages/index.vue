@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <section class="hero-banner" :style="{ backgroundImage: 'url(images/computer.jpg)' }">
+    <section class="hero-banner" :style="{ backgroundImage: 'url(/Summer_Camp/images/computer.jpg)' }">
       <div class="content-overlay" >
         <div class="banner1">
           <h1 id="data-h1">数据科学夏令营</h1>
@@ -18,7 +18,7 @@
       </div>
     </section>
 
-    <section class="instructors-section" :style="{ backgroundImage: 'url(images/computer.jpg)' }">
+    <section class="instructors-section" :style="{ backgroundImage: 'url(/Summer_Camp/images/computer.jpg)' }">
       <div class="content-overlay">
         <div class="instructors-text">
           <h3>课程介绍</h3>
@@ -44,16 +44,10 @@
           <div class="right-img-2"></div>
           <div class="right-img-3"></div>
         </div>
-        <aside class="banner-intro">
-          <div class = "color-block"></div>
-          <div class = "font-block">
-            <p class="intro-p1">专为初高中生设计的AI与编程实践课程，通过动手制作智能小车，在趣味十足的项目中学习Python编程、机器学习、深度学习等前沿技术，课程由顶尖高校导师亲自指导，带领学生走在科技最前沿。</p>
-          </div>
-        </aside>
       </div>
     </section>
 
-    <section class="features-section" :style="{ backgroundImage: 'url(images/computer.jpg)' }">
+    <section class="features-section" :style="{ backgroundImage: 'url(/Summer_Camp/images/computer.jpg)' }">
       <div class="content-overlay">
         <div class="professors-list">
           <div class="three-tutor1"></div>
@@ -81,7 +75,7 @@
       </div>
     </section>
 
-    <section class="testimonials-section" :style="{ backgroundImage: 'url(images/computer.jpg)' }">
+    <section class="testimonials-section" :style="{ backgroundImage: 'url(/Summer_Camp/images/computer.jpg)' }">
       <div class="content-overlay">
         <div class="four-line"></div>
         <div class="four-fish"></div>
@@ -100,40 +94,10 @@
           <div class="feedback-block2-3"><span>"非常好，课程形式特别喜欢，认识了好棒的老师，结交了朋友，依依不舍。"</span></div>
           <div class="feedback-block2-4"><span>"老师和助教们都很友善亲切，教学方式让我们很放松，保持很好的学习状态，激发了我们的学习兴趣，有点难，但总体很好。</span></div>
         </div>
-        <div class="three-tutor2"></div>
-        <aside class="tutor-intro">
-          <div class = "color-block"></div>
-          <div class = "font-block">
-            <p class="intro-p1">我们的导师团队由多位世界名校的教授及业界资深工程师组成，拥有丰富的教学经验和实践背景，致力于为学生提供优质的教育。</p>
-          </div>
-        </aside>
       </div>
     </section>
 
-    <section class="contact-section" :style="{ backgroundImage: 'url(images/hour-of-ai.jpg)' }">
-      <div class="content-overlay">
-        <div class="info-container">
-          <div class="info-text">
-            <h3>报名条件：</h3>
-            <ul>
-              <li> 青岛市范围内新初二、新初三学生；海尔学校在校高一、高二学生以及部分优秀学生。</li>
-              <li> 品学兼优，具备优秀数学学科素养、一定的计算机编程基础和良好的英语听说能力。</li>
-            </ul>
-            <h3>报名方式：</h3>
-            <ul>
-              <li> 学校推荐：符合上述报名条件的学生可由所在学校进行推荐。</li>
-              <li> 个人自荐：未获得学校推荐，但符合上述报名条件的学生，可通过个人提交简历的方式进行报名。</li>
-              <li> 简历提交：学校推荐或个人自荐的学生均需要通过线上方式（扫描右侧二维码）提交学生简历，简历提交截止于2024年7月3日12:00。（说明：海尔学校在校学生将单独组织报名。）</li>
-            </ul>
-          </div>
-        </div>
-        <div class="qr-code-image">
-          <img src="images/报名.jpg" alt="QR Code for Registration" />
-        </div>
-      </div>
-    </section>
-
-    <section class="contact-section" :style="{ backgroundImage: 'url(images/hour-of-ai.jpg)' }">
+    <!-- <section class="contact-section" :style="{ backgroundImage: 'url(/Summer_Camp/images/hour-of-ai.jpg)' }">
       <div class="content-overlay">
         <h2>联系我们</h2>
         <div class="contact-info">
@@ -149,7 +113,7 @@
 <style scoped>
 .three-line {
   position: absolute; 
-  background-image: url('images/three-line.png');
+  background-image: url('/Summer_Camp/images/three-line.png');
   width: 25vw;
   height: 25vw;
   bottom: -30%;
@@ -157,7 +121,7 @@
 }
 
 .three-tutor1 {
-  background-image: url('images/three-tutor1.png');
+  background-image: url('/Summer_Camp/images/three-tutor1.png');
   width: 45vw;
   height: 54vh;
 }
@@ -220,7 +184,7 @@
 }
 
 .three-tutor2{
-  background-image: url('images/three-tutor2.png');
+  background-image: url('/Summer_Camp/images/three-tutor2.png');
   width: 32vw;
   height: 32vh;
   position: absolute;
@@ -289,7 +253,7 @@
 
 .center-img {
   position: absolute; 
-  background-image: url('images/img-2.jpg');
+  background-image: url('/Summer_Camp/images/img-2.jpg');
   width: 36vw;
   height: 36vw;
   left: 50%;
@@ -300,7 +264,7 @@
 
 .center-img-redcircle {
   position: absolute; 
-  background-image: url('images/2-redcircle.png');
+  background-image: url('/Summer_Camp/images/2-redcircle.png');
   width: 40vw;
   height: 40vw;
   left: 63%;
@@ -310,7 +274,7 @@
 
 .center-line {
   position: absolute; 
-  background-image: url('images/2-line.png');
+  background-image: url('/Summer_Camp/images/2-line.png');
   width: 15vw;
   height: 15vw;
   left: 74%;
@@ -320,7 +284,7 @@
 
 .four-line {
   position: absolute; 
-  background-image: url('images/four-line.png');
+  background-image: url('/Summer_Camp/images/four-line.png');
   width: 25vw;
   height: 14vw;
   left: 9%;
@@ -329,7 +293,7 @@
 
 .four-fish {
   position: absolute; 
-  background-image: url('images/four-fish.png');
+  background-image: url('/Summer_Camp/images/four-fish.png');
   width: 28vw;
   height: 10vw;
   left: 70%;
@@ -351,15 +315,15 @@
 }
 
 .right-img-1 {
-  background-image: url('images/2-small-img-1.png');
+  background-image: url('/Summer_Camp/images/2-small-img-1.png');
 }
 
 .right-img-2 {
-  background-image: url('images/2-small-img-2.png');
+  background-image: url('/Summer_Camp/images/2-small-img-2.png');
 }
 
 .right-img-3 {
-  background-image: url('images/2-small-img-3.png');
+  background-image: url('/Summer_Camp/images/2-small-img-3.png');
 }
 
 .feedback-block{
@@ -384,7 +348,7 @@
 .feedback-block-1, .feedback-block-2, .feedback-block-3 {
   width: 28vw;
   height: 13vh;
-  background-image: url('images/four-chatbox.png');
+  background-image: url('/Summer_Camp/images/four-chatbox.png');
   position:relative;
   display: flex;
   align-items: center;
@@ -427,13 +391,13 @@
 }
 
 .feedback-block2-1, .feedback-block2-2{
-  background-image: url('images/four-chatboxlong.png');
+  background-image: url('/Summer_Camp/images/four-chatboxlong.png');
   width: 40vw;
   height: 14vh;
 }
 
 .feedback-block2-3, .feedback-block2-4{
-  background-image: url('images/four-chatbox.png');
+  background-image: url('/Summer_Camp/images/four-chatbox.png');
   width: 28vw;
   height: 13vh;
 }
@@ -792,52 +756,5 @@ h2, h3, h4, ul, li, p {
     width: 100%;
     text-align: center;
   }
-}
-
-/* 报名信息 */
-.content-overlay {
-  width: 100%; /* 根据需要调整宽度 */
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.info-container {
-  display: flex;
-  align-items: center;
-  width: 100%; /* 限制容器宽度 */
-}
-
-.info-text {
-  flex: 0 0 40%;
-  position: relative; /* 设置相对定位，以便伪元素可以相对于此元素定位 */
-  padding: 20px; /* 根据需要调整内边距 */
-  background-color: rgba(107, 52, 147, 0.5); /* 设置背景颜色 */
-  border-radius: 0 0 100px 0; /* 设置三个角为直角，右下角为圆角20px */
-  color: white; /* 设置文字颜色，确保在深色背景上可见 */
-  flex: 0 0 45%; /* 限制文字区域为页面宽度的三分之一 */
-  padding-right: 50px; /* 根据需要调整与图片的间距 */
-  padding-left: 5%;
-  text-align: left; /* 文字左对齐 */
-  vertical-align: middle; /* 垂直居中 */
-}
-
-.qr-code-image img {
-  position: absolute; /* 绝对定位，使图片相对于最近的已定位祖先元素定位 */
-  right: 15%; /* 图片距离右侧边缘5% */
-  top: 50%; /* 图片距离顶部50% */
-  transform: translateY(-50%); /* 垂直方向上移动自身高度的50%，实现垂直居中 */
-  width: 15%; /* 图片宽度为容器宽度的20% */
-  height: auto; /* 高度自动调整，保持宽高比 */
-  max-width: 100%; /* 确保图片不会超出容器宽度 */
-  flex: 0 0 auto; /* 图片区域不伸缩 */
-}
-
-.info-text ul {
-  margin-bottom: 20px; /* 为每个无序列表添加下外边距 */
-}
-
-.info-text h3 {
-  font-size: 1.5em;
 }
 </style>
