@@ -98,7 +98,7 @@
     </section>
 
     <section class="contact-section" :style="{ backgroundImage: 'url(images/hour-of-ai.jpg)' }">
-      <div class="content-overlay">
+      <div class="content-overlay info-content-overlay">
         <div class="info-container">
           <div class="info-text">
             <h3>报名条件：</h3>
@@ -752,37 +752,8 @@ h2, h3, h4, ul, li, p {
   font-size: 1.1em;
 }
 
-@media (max-width: 768px) {
-  .hero-banner h1 {
-    font-size: 2em;
-  }
-  
-  .hero-banner h2 {
-    font-size: 1.5em;
-  }
-  
-  .hero-banner h3 {
-    font-size: 1.2em;
-  }
-  
-  .feature-grid,
-  .testimonial-grid {
-    grid-template-columns: 1fr;
-  }
-  
-  .cta-buttons {
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .primary-btn, .secondary-btn {
-    width: 100%;
-    text-align: center;
-  }
-}
-
 /* 报名信息 */
-.content-overlay {
+.info-content-overlay {
   width: 100%; /* 根据需要调整宽度 */
   display: flex;
   justify-content: space-between;
@@ -826,5 +797,34 @@ h2, h3, h4, ul, li, p {
 
 .info-text h3 {
   font-size: 1.5em;
+}
+
+@media (max-width: 768px) {
+  .hero-banner h1 {
+    font-size: 2em;
+  }
+  
+  .hero-banner h2 {
+    font-size: 1.5em;
+  }
+  
+  .hero-banner h3 {
+    font-size: 1.2em;
+  }
+  
+  .feature-grid,
+  .testimonial-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .cta-buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .primary-btn, .secondary-btn {
+    width: 100%;
+    text-align: center;
+  }
 }
 </style>
