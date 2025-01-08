@@ -9,7 +9,7 @@
           <div class="dropdown">
             <span class="nav-link">课程体系 <span class="dropdown-arrow">▼</span></span>
             <div class="dropdown-content">
-              <a href="https://celehs.github.io/CELEHS-Data-Science-Summer-Camp/week_2.html" target="_blank" rel="noopener noreferrer" class="dropdown-item">统计与机器学习</a>
+              <a href="https://celehs-data-science-summer-camp-camp.netlify.app/summer-camp/2week_2" target="_blank" rel="noopener noreferrer" class="dropdown-item">统计与机器学习</a>
               <!-- <NuxtLink to="/" class="dropdown-item">课程概览</NuxtLink> -->
               <!-- <NuxtLink to="/" class="dropdown-item">机器学习课程</NuxtLink> -->
             </div>
@@ -21,8 +21,8 @@
             <span class="nav-link">学习资源<span class="dropdown-arrow">▼</span></span>
             <div class="dropdown-content">
               <a href="https://learn-from-zero.netlify.app" target="_blank" rel="noopener noreferrer" class="dropdown-item">Python教程</a>
-              <a href="https://celehs.github.io/CELEHS-Data-Science-Summer-Camp/car_building.html" target="_blank" rel="noopener noreferrer" class="dropdown-item">制作树莓派小车</a>
-              <a href="https://celehs.github.io/CELEHS-Data-Science-Summer-Camp/week_1.html" target="_blank" rel="noopener noreferrer" class="dropdown-item">Python 基础</a>
+              <a href="https://celehs-data-science-summer-camp-camp.netlify.app/summer-camp/car_building" target="_blank" rel="noopener noreferrer" class="dropdown-item">制作树莓派小车</a>
+              <a href="https://celehs-data-science-summer-camp-camp.netlify.app/summer-camp/1week_1" target="_blank" rel="noopener noreferrer" class="dropdown-item">Python 基础</a>
             </div>
           </div>
           <div class="dropdown">
