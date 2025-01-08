@@ -14,7 +14,9 @@
               <!-- <NuxtLink to="/" class="dropdown-item">机器学习课程</NuxtLink> -->
             </div>
           </div>
-          <a href="/enrollment/form"  rel="noopener noreferrer" class="nav-link">报名选拔</a>
+          <!-- <a href="/enrollment/form"  rel="noopener noreferrer" class="nav-link">报名选拔</a> -->
+          <NuxtLink to="/enrollment/form" class="nav-link">报名选拔</NuxtLink>
+          
           <div class="dropdown">
             <span class="nav-link">学习资源<span class="dropdown-arrow">▼</span></span>
             <div class="dropdown-content">

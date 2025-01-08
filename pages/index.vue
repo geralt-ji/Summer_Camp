@@ -6,7 +6,8 @@
           <h1 id="data-h1">数据科学夏令营</h1>
           <h3>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;—— 用编程与实践掌握未来，助力科学梦想起航</h3>
           <div class="cta-buttons">
-            <a href="/enrollment/form"  rel="noopener noreferrer" class="primary-btn">立即报名</a>
+            <!-- <a href="/enrollment/form"  rel="noopener noreferrer" class="primary-btn">立即报名</a> -->
+            <NuxtLink to="/enrollment/form" class="primary-btn">立即报名</NuxtLink>
           </div>
         </div>
         <aside class="banner-intro">
