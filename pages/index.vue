@@ -6,7 +6,7 @@
           <h1 id="data-h1">数据科学夏令营</h1>
           <h3>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;—— 用编程与实践掌握未来，助力科学梦想起航</h3>
           <div class="cta-buttons">
-            <NuxtLink to="/enrollment/form" class="primary-btn">立即报名</NuxtLink>
+            <a href="/enrollment/form"  rel="noopener noreferrer" class="primary-btn">立即报名</a>
           </div>
         </div>
         <aside class="banner-intro">
@@ -93,29 +93,6 @@
           <div class="feedback-block2-2"><span>"充实的~能够获得足够的情绪价值的，能学到真正知识的，不搞任何形式主义的，是一个提升自己的好的机会。老师认真辅导，帮助同学理解问题，这次真的很满意！"</span></div>
           <div class="feedback-block2-3"><span>"非常好，课程形式特别喜欢，认识了好棒的老师，结交了朋友，依依不舍。"</span></div>
           <div class="feedback-block2-4"><span>"老师和助教们都很友善亲切，教学方式让我们很放松，保持很好的学习状态，激发了我们的学习兴趣，有点难，但总体很好。</span></div>
-        </div>
-      </div>
-    </section>
-
-    <section class="contact-section" :style="{ backgroundImage: 'url(images/hour-of-ai.jpg)' }">
-      <div class="content-overlay info-content-overlay">
-        <div class="info-container">
-          <div class="info-text">
-            <h3>报名条件：</h3>
-            <ul>
-              <li> 青岛市范围内新初二、新初三学生；海尔学校在校高一、高二学生以及部分优秀学生。</li>
-              <li> 品学兼优，具备优秀数学学科素养、一定的计算机编程基础和良好的英语听说能力。</li>
-            </ul>
-            <h3>报名方式：</h3>
-            <ul>
-              <li> 学校推荐：符合上述报名条件的学生可由所在学校进行推荐。</li>
-              <li> 个人自荐：未获得学校推荐，但符合上述报名条件的学生，可通过个人提交简历的方式进行报名。</li>
-              <li> 简历提交：学校推荐或个人自荐的学生均需要通过线上方式（扫描右侧二维码）提交学生简历，简历提交截止于2024年7月3日12:00。（说明：海尔学校在校学生将单独组织报名。）</li>
-            </ul>
-          </div>
-        </div>
-        <div class="qr-code-image">
-          <img src="../public/images/qr_code.jpg" alt="QR Code for Registration" />
         </div>
       </div>
     </section>

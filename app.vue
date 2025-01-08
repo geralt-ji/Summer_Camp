@@ -14,7 +14,7 @@
               <!-- <NuxtLink to="/" class="dropdown-item">机器学习课程</NuxtLink> -->
             </div>
           </div>
-          <NuxtLink to="/" class="nav-link">报名选拔</NuxtLink>
+          <a href="/enrollment/form"  rel="noopener noreferrer" class="nav-link">报名选拔</a>
           <div class="dropdown">
             <span class="nav-link">学习资源<span class="dropdown-arrow">▼</span></span>
             <div class="dropdown-content">
@@ -161,7 +161,7 @@ body {
 }
 
 .main-content {
-  min-height: 200vh;
+  min-height: 100vh;
 }
 
 .nav-brand .brand-link {
