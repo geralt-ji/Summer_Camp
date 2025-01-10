@@ -777,7 +777,7 @@ h2, h3, h4, ul, li, p {
   font-size: 1.5em;
 }
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .hero-banner h1 {
     font-size: 2em;
   }
@@ -804,5 +804,5 @@ h2, h3, h4, ul, li, p {
     width: 100%;
     text-align: center;
   }
-}
+} */
 </style>

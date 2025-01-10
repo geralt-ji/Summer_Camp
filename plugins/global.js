@@ -1,5 +1,5 @@
 // 全局滚动插件
-export default () => {
+export default defineNuxtPlugin((nuxtApp) => {
     if (process.client) {
       let ticking = false;
       let velocity = 0; // 滚动速度
@@ -34,5 +34,5 @@ export default () => {
         { passive: false }
       );
     }
-  };
+  });
   
