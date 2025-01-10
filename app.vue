@@ -4,7 +4,7 @@
         <div class="nav-brand">
           <NuxtLink to="/" class="brand-link">数据科学夏令营</NuxtLink>
         </div>
-        <div class="nav-links">
+        <div class="nav-links hidden lg:flex">
           <NuxtLink to="/" class="nav-link">首页</NuxtLink>
           <div class="dropdown">
             <span class="nav-link">课程体系 <span class="dropdown-arrow">▼</span></span>
@@ -25,6 +25,7 @@
               <a href="https://celehs-data-science-summer-camp-camp.netlify.app/summer-camp/1week_1" target="_blank" rel="noopener noreferrer" class="dropdown-item">Python 基础</a>
             </div>
           </div>
+
           <div class="dropdown">
             <span class="nav-link">活动动态<span class="dropdown-arrow">▼</span></span>
             <div class="dropdown-content">
@@ -34,6 +35,11 @@
           </div>
           <a href="https://www.kaggle.com/" target="_blank" rel="noopener noreferrer" class="nav-link">学习追踪</a>
         </div>
+
+        <div class="ml-auto lg:hidden">
+            <HamburgerMenu />
+        </div>
+
         <div class="nav-right">
           <div class="search-container" :class="{ 'active': isSearchActive }">
             <div class="search-box">
@@ -174,7 +180,7 @@ body {
 }
 
 .nav-links {
-  display: flex;
+  /* display: flex; */
   gap: 1rem;
   align-items: center;
 }

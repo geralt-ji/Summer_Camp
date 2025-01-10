@@ -445,12 +445,12 @@
 
 .instructors-text .h4-1{
   margin-top: 6vh;
-  width: 10vw;
+  width: 40%;
 }
 
 .instructors-text .h4-2{
   margin-top: 3vh;
-  width: 13vw;
+  width: 50%;
 }
 
 .professors-list ul{
